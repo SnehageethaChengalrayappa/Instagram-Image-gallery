@@ -1,0 +1,47 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+.upload-form {
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f8f8f8;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.upload-form h2 {
+	margin-top: 0;
+}
+
+.upload-form input[type="file"] {
+	display: none;
+}
+
+.upload-form button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 20px;
+	padding: 20px;
+}
+
+.gallery__item {
+	overflow: hidden;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.gallery__img {
+	width: 100%;
+	height: auto;
+}
